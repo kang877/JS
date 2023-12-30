@@ -35,7 +35,7 @@ def authenticate():
         st.error("Authentication failed. Please enter the correct password.")
         return False
 def main1():
-    st.title("J Special App")
+    st.title("J Special Lite")
 
     # Initialize N and M
     if 'N' not in st.session_state:
