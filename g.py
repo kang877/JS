@@ -337,7 +337,7 @@ def main():
         # Your authenticated content goes here
         
         # Create three columns at the top
-        col1, col2, col3 = st.columns([0.3, 0.7,0.3], gap="large")
+        col1, col2, col3 = st.columns([0.2, 0.4,0.4], gap="large")
 
         # Add content to the first row
         with col1:
