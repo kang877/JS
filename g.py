@@ -4,7 +4,7 @@ import time
 import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-st.set_page_config(page_title="Streamlit Speedometer Gauges", layout="wide")
+st.set_page_config(page_title="Streamlit Speedometer Gauges", layout="normal")
 # Constants
 CORRECT_PASSWORD = "6081ca"
 API_KEY = "6081"
