@@ -345,14 +345,13 @@ def main():
                        
         # Add content to the second row
         with col2:
-            Speedometer_guage()
+            Pallet_layout(combined_lists)  
             
            
         with col3:
-            Pallet_layout(combined_lists)    
-                       
+            Speedometer_guage()           
    
-            
+        
             
 if __name__ == "__main__":
     main()
